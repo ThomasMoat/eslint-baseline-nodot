@@ -18,13 +18,13 @@ The command is a simple wrapper around eslint so it will use all your existing c
 
 All command line arguments are passed through to eslint see https://eslint.org/docs/latest/user-guide/command-line-interface, the only caveat is the format is changed to json
 
-If no baseline file exists  one will be created on first run '.eslint-baseline.json' 
+If no baseline file exists  one will be created on first run 'eslint-baseline.json' 
 
 Simply run a second time to verify if there are any new issues since the baseline was created
 
 ```npx eslint-baseline file2.js ```
 
-**Do not forget to commit your .eslint-baseline.json file**
+**Do not forget to commit your eslint-baseline.json file**
 
 Add the command to your CI pipeline to prevent code regressions
 
