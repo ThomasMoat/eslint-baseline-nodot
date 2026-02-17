@@ -4,7 +4,7 @@ import eslint from './src/eslint.js';
 import * as fs from 'fs';
 import {createFromEslintResult, getFilteredMessages} from './src/baseline.js';
 
-const FILE_NAME = '.eslint-baseline.json';
+const FILE_NAME = 'eslint-baseline.json';
 
 async function exec() {
     if (!fs.existsSync(FILE_NAME)) {

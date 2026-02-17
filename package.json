@@ -1,7 +1,7 @@
 {
-  "name": "@chobotx/eslint-baseline",
-  "version": "0.9.6",
-  "description": "create a baseline for eslint pipelines",
+  "name": "@timmy/eslint-baseline-nodot",
+  "version": "1",
+  "description": "create a baseline for eslint pipelines, baseline file is not hidden",
   "keywords": [ "eslint", "baseline", "base-line", "ci", "code", "continuous integration", "linter", "quality"],
   "main": "index.js",
   "type": "module",
@@ -11,7 +11,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "chobotx",
+  "author": "timmy",
   "license": "MIT",
   "dependencies": {
     "execa": "^6.1.0",
@@ -22,12 +22,8 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ChobotX/eslint-baseline.git"
+    "url": "git+https://github.com/ThomasMoat/eslint-baseline-nodot"
   },
-  "bugs": {
-    "url": "https://github.com/ChobotX/eslint-baseline/issues"
-  },
-  "homepage": "https://github.com/ChobotX/eslint-baseline#readme",
   "contributors": [
     {
       "name": "LuminateOne",
